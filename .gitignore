@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 .gitkeep
+*.csv
 sample_folder/
