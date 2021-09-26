@@ -1,0 +1,9 @@
+name: nlp-env
+dependencies:
+  - python=3
+  - jupyter
+  - numpy
+  - pandas
+  - seaborn
+  - spacy
+  - scikit-learn
