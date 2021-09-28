@@ -7,3 +7,5 @@ dependencies:
   - seaborn
   - spacy
   - scikit-learn
+  - beautifulsoup4
+  - dash
