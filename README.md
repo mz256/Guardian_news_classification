@@ -3,6 +3,16 @@
 ## Summary
 A custom-built NLP dataset of news articles labelled by topic, created with calls to the Guardian API and BeautifulSoup, is used to train and validate a text classifier. The model is then deployed for inference as a web application using Dash.
 
+## Set-up
+No special hardware is needed for all the code in this repo. However, in order to seamlessly reproduce the workflow, you might want to exploit the custom conda environment in `environment.yml` by running the following:
+
+```
+$ git clone git@github.com:mz256/Guardian_news_classification.git
+$ cd Guardian_news_classification
+$ conda env create
+$ conda activate nlp-env
+```
+
 ## Description
 
 1. The script `01_scrape_guardian` exploits the Guardian Open Platform API and BeautifulSoup to scrape and parse news articles about a collection of chosen topics (environment, business, film, culture and education). These are then organised and saved as a dataset for analysis. NB: `00_scrape_guardian_test` is a more descriptive step-by-step walkthrough of the scraping process used (this time on news about elections in Hong Kong).
