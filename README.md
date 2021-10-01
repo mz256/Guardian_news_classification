@@ -27,5 +27,11 @@ $ conda activate nlp-env
 
 ![alt text](https://github.com/mz256]/Guardian_news_classification]/blob/main/assets/screenshot?raw=true)
 
+![Alt text](screenshot?raw=true "Title")
+
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+
+
+
 
 
