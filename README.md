@@ -23,3 +23,9 @@ $ conda activate nlp-env
 
 4. In `06_deployment`, the model is embedded in a web application written with Dash and deployed locally. The UI lets the user choose between manually inserting a short sentence or scraping a number of fresh news articles. The model predicts the most likely topic of discussion and results are displayed.
 
+![plot](./assets/screenshot)
+
+![alt text](https://github.com/mz256]/Guardian_news_classification]/blob/main/assets/screenshot?raw=true)
+
+
+
